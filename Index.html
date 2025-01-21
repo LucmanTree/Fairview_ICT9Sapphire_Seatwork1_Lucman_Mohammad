@@ -49,15 +49,15 @@
 
         
         document.getElementById('convertToYen').addEventListener('click', function() {
-            var pesos = 100; // Base amount in PHP
-            var yen = pesos * pesoToYen; // Convert to Yen
+            var pesos = 100; 
+            var yen = pesos * pesoToYen; 
             document.getElementById('yenResult').innerHTML = `100 PHP =${yen.toFixed(2)} JPY`;
         });
 
         
         document.getElementById('convertToEuro').addEventListener('click', function() {
-            var pesos = 100; // Base amount in PHP
-            var euro = pesos * pesoToEuro; // Convert to Euro
+            var pesos = 100; 
+            var euro = pesos * pesoToEuro; 
             document.getElementById('euroResult').innerHTML = `100 PHP = ${euro.toFixed(2)} EUR`;
         });
     </script>
